@@ -1,0 +1,47 @@
+2024-01-08 20:14:24.451 INFO  [background-preinit] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 6.2.5.Final
+2024-01-08 20:14:24.454 INFO  [restartedMain] [me2.jwt.Me2Application] - Starting Me2Application using Java 17.0.8 on otaehun-ui-MacBookAir.local with PID 83342 (/Users/otaehun/Desktop/프로젝트/me2/build/classes/java/main started by otaehun in /Users/otaehun/Desktop/프로젝트/me2)
+2024-01-08 20:14:24.455 DEBUG [restartedMain] [me2.jwt.Me2Application] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-01-08 20:14:24.456 INFO  [restartedMain] [me2.jwt.Me2Application] - No active profile set, falling back to 1 default profile: "default"
+2024-01-08 20:14:24.509 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-08 20:14:24.509 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-08 20:14:25.275 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-08 20:14:25.292 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-01-08 20:14:25.859 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8089 (http)
+2024-01-08 20:14:25.865 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-01-08 20:14:25.867 INFO  [restartedMain] [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-01-08 20:14:25.867 INFO  [restartedMain] [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-01-08 20:14:25.928 INFO  [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-01-08 20:14:25.928 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1418 ms
+2024-01-08 20:14:25.961 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-01-08 20:14:26.131 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-01-08 20:14:26.160 INFO  [restartedMain] [o.s.b.a.h2.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dd1a1a06-92ec-4b1b-8497-634a790497f0'
+2024-01-08 20:14:26.288 INFO  [restartedMain] [o.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-08 20:14:26.319 INFO  [restartedMain] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-01-08 20:14:26.415 INFO  [restartedMain] [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-08 20:14:26.483 INFO  [restartedMain] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-01-08 20:14:26.611 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-08 20:14:26.616 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-08 20:14:26.674 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-08 20:14:26.733 WARN  [restartedMain] [o.s.b.a.s.s.UserDetailsServiceAutoConfiguration] - 
+
+Using generated security password: fc278f2d-0023-4f9a-bed9-f801a74a455c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-08 20:14:26.790 INFO  [restartedMain] [o.s.s.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3be68bf3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6da60f42, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c5273e1, org.springframework.security.web.header.HeaderWriterFilter@3422ca1c, org.springframework.security.web.csrf.CsrfFilter@716327ce, org.springframework.security.web.authentication.logout.LogoutFilter@4bda3bfc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3843fd7e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@664e42e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1cd818e0, org.springframework.security.web.session.SessionManagementFilter@3d5fb3d4, org.springframework.security.web.access.ExceptionTranslationFilter@771b7ddb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5beb389d]
+2024-01-08 20:14:27.142 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2024-01-08 20:14:27.161 INFO  [restartedMain] [o.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8089"]
+2024-01-08 20:14:27.177 INFO  [restartedMain] [o.s.b.w.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8089 (http) with context path ''
+2024-01-08 20:14:27.192 INFO  [restartedMain] [me2.jwt.Me2Application] - Started Me2Application in 3.128 seconds (JVM running for 4.109)
+2024-01-08 21:06:36.322 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m39s769ms).
+2024-01-08 21:12:53.184 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m16s874ms).
+2024-01-08 21:36:42.463 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m49s281ms).
+2024-01-08 21:37:54.879 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s416ms).
+2024-01-08 21:39:54.161 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s282ms).
+2024-01-08 21:54:47.717 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m53s556ms).
+2024-01-08 21:57:15.373 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s656ms).
+2024-01-08 21:59:04.689 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m49s315ms).
+2024-01-08 22:01:07.231 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m2s543ms).
+2024-01-08 22:34:07.472 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m241ms).
+2024-01-08 23:09:32.469 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m24s998ms).
+2024-01-08 23:46:10.631 WARN  [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m8s144ms).
